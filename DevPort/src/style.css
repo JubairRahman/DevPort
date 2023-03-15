@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#command-prompt-container {
+	background-color: black;
+	color: white;
+	font-family: monospace;
+	padding: 10px;
+	height: 300px;
+	overflow: scroll;
+}
+
+#input-container {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+#input-container span {
+	margin-right: 10px;
+}
+
+.hidden {
+	display: none;
+}
