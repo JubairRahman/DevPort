@@ -12,14 +12,14 @@ inputField.addEventListener('keydown', (event) => {
         <p>Blog</p>
         <p>Project</p>
         <p>Contact</p>
+        <p>Type "Clear" to clear window</p>
       `;
     } else if (command === 'clear') {
-      contentDiv.innerHTML = '';
+      contentDiv.innerHTML = `Type "help" for continue`;
     } else if (command === 'about') {
       contentDiv.innerHTML += `
         <h1>About</h1>
-        <p>This is a simple website built using HTML, CSS, and JavaScript.</p>
-      `;
+        <p>Jubair Rahman is a QA Engineer with a passion for designing. With a keen eye for detail and a creative mind, he enjoys exploring different design tools and techniques to create beautiful and functional designs.</p> `;
     } else if (command === 'blog') {
       contentDiv.innerHTML += `
         <h1>Blog</h1>
